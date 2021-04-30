@@ -15,3 +15,17 @@ Saída:
 Imprima a quantidade de litros necessária para realizar a viagem, com três dígitos após o ponto decimal
 '''
 
+consumo = 12
+
+print('Digite o tempo gasto na viagem:')
+tempo = float(input())
+
+print('Digite a velocidade média:')
+velocidade = float(input())
+
+distancia = velocidade * tempo
+print(f'A distância percorrida será de {distancia} kilometros')
+
+consumo_total = distancia / consumo
+
+print('Serão necessários %.5f'%consumo_total + ' de litros de combustível para a viagem')
