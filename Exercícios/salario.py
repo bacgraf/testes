@@ -11,17 +11,17 @@ Saída:
 Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois
 da igualdade. No caso do salário, também deve haver um espaço em branco após o $.
 
->>>25
->>>100
->>>5.5
-Numero = 25
-Salario = R$ 550.00
-
->>>1
->>>200
->>>20.50
-Numero = 1
-Salario = R$ 4100.00
+# >>>25
+# >>>100
+# >>>5.5
+# Numero = 25
+# Salario = R$ 550.00
+#
+# >>>1
+# >>>200
+# >>>20.50
+# Numero = 1
+# Salario = R$ 4100.00
 '''
 
 print('Insira o número do funcionário: ')
