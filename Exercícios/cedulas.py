@@ -21,11 +21,12 @@ a = int(input())
 index = 0
 
 for i in cedulas:
-    m, a = divmod(a, i)
-    total.append(m)
+    c, a = divmod(a, i)
+    total.append(c)
 
 for i in cedulas:
     print(f'{total[index]} notas de R$ {i},00')
     index += 1
 
 
+#resolver a cagada
